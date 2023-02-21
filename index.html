@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor HTML</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Container es la parte con el botón y los dos cuadros de texto-->
+    <div class="container">
+        <!--head contiene el botón-->
+        <div class="head">
+            <button onclick="run()">Run</button>
+        </div>
+        <!--textarea contiene los dos cuadros de texto-->
+        <div class="textarea">
+            <!--input es el cuadro donde introducimos el texto con las etiquetas html-->
+            <textarea id="input" class="input"></textarea>
+            <!--result es el cuadro donde muestra el resultado compilado-->    
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
